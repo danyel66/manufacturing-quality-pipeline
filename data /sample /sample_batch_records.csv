@@ -1,0 +1,9 @@
+record_id,valve_id,timestamp,process_stage,quality_score,result
+1,VALVE-A1,2024-01-15 08:00:00,press_fit,98.2,PASS
+2,VALVE-A2,2024-01-15 08:15:00,press_fit,97.8,PASS
+3,VALVE-B1,2024-01-15 09:00:00,weld,61.0,FAIL
+4,VALVE-B2,2024-01-15 09:30:00,weld,95.5,PASS
+5,VALVE-C1,2024-01-15 10:00:00,seal_test,,FAIL
+6,VALVE-C2,2024-01-15 10:15:00,seal_test,99.1,PASS
+7,VALVE-A3,2024-01-15 11:00:00,press_fit,88.3,PASS
+8,VALVE-D1,2024-01-15 11:30:00,weld,,FAIL

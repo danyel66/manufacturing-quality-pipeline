@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+
+# Databricks
+.databricks/
+*.dbc
+
+# Delta table artifacts (don't commit actual data)
+data/delta/
+data/checkpoints/
+*.parquet
+_delta_log/
+
+# Credentials — never commit these
+secrets.json
+credentials.json
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
